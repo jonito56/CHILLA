@@ -6,15 +6,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/he
 
 TDS:Loadout("Scout", "Hacker", "DJ Booth", "Spotlight Tech", "Warlock")
 
-TDS:Place("Scout", -13.67116, 2.48784, -8.86902) -- 1
-TDS:Place("Scout", -13.67116, 3.35404, -8.86902) -- 2
-TDS:Place("Scout", -13.67116, 3.21619, -8.86902) -- 3
+TDS:Place("Scout", -13.67116, 95, -8.86902) -- 1
+TDS:Place("Scout", -13.67116, 95, -8.86902) -- 1
+TDS:Place("Scout", -13.67116, 95, -8.86902) -- 1
 TDS:Upgrade(1)
 TDS:Upgrade(2)
 TDS:Upgrade(3)
 TDS:Upgrade(1)
 TDS:Upgrade(3)
 TDS:Upgrade(2)
-TDS:Place("Hacker", -9.91477, 2.27511, -8.83184) -- 4
+TDS:Place("Hacker", -9.91477, 95, -8.83184) -- 2
 TDS:Upgrade(4)
 TDS:Upgrade(4)
