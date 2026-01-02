@@ -1,10 +1,11 @@
--- [[ INITIALIZE LIBRARY ]]
-local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/improved-testlag.lua"))()
+_G.AutoStrat = true
 
-TDS:Place("Scout", -20.00, 20.00, -15.33) -- 4
-TDS:Place("Scout", -20.00, 15.00, -15.33) -- 5
-TDS:Place("Scout", -20.00, 10.00, -15.33) -- 6
-TDS:Place("Scout", -20.00, 5.00, -15.33) -- 7
+-- [[ INITIALIZE LIBRARY ]]
+local TDS =
+loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/improved-testlag.lua"))()
+
+TDS:Loadout("Cowboy", "Commander", "DJ Booth", "Spotlight Tech", "Warlock")
+
 TDS:Place("Scout", -13.67116, 2.48784, -8.86902) -- 1
 TDS:Place("Scout", -13.67116, 3.35404, -8.86902) -- 2
 TDS:Place("Scout", -13.67116, 3.21619, -8.86902) -- 3
