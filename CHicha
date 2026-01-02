@@ -13,8 +13,8 @@ TDS:GameInfo("Simplicity", {
 })
 
 TDS:Place("Scout", -13.67116, 2.48784, -8.86902) -- 1
-TDS:Place("Scout", -13.67116, 2.48784, -8.86902) -- 2
-TDS:Place("Scout", -13.67116, 2.48784, -8.86902) -- 3
+TDS:Place("Scout", -13.67116, 3.35404, -8.86902) -- 2
+TDS:Place("Scout", -13.67116, 3.21619, -8.86902) -- 3
 TDS:Upgrade(1)
 TDS:Upgrade(2)
 TDS:Upgrade(3)
