@@ -1,0 +1,33 @@
+-- [[ CONFIGURATION ]]
+_G.AutoStrat = true
+_G.AntiLag = true
+_G.AutoSnowballs = true
+
+-- [[ WEBHOOK SETTINGS ]]
+_G.SendWebhook = false -- Set to true to enable notifications
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" 
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/improved.lua"))()
+
+-- [[ START STRATEGY ]]
+TDS:Loadout("Scout", "Accelerator", "Mercenary Base", "Hacker", "Warlock")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {
+    HiddenEnemies = true,
+    Glass = true,
+    Committed = true
+})
+
+TDS:Place("Scout", -13.67116, 2.48784, -8.86902) -- 1
+TDS:Place("Scout", -11.92841, 3.35404, 21.60733) -- 2
+TDS:Place("Scout", -8.13013, 3.21619, 21.79077) -- 3
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Place("Hacker", -9.91477, 2.27511, -8.83184) -- 4
+TDS:Upgrade(4)
+TDS:Upgrade(4)
